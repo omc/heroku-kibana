@@ -1,0 +1,25 @@
+{
+  "name": "Kibana",
+  "description": "Flexible tool for building analytics and data visualization dashboards for Elasticsearch.",
+  "keywords": [
+    "kibana", "time-series", "metrics", "analytics", "dataviz", "visualization",
+    "elasticsearch", "elastic", "bonsai"
+  ],
+  "website": "https://bonsai.io/",
+  "repository": "https://github.com/omc/heroku-kibana",
+  "success_url": "/",
+  "env": {
+    "DOWNLOAD_URL": {
+      "description": "Location of the Kibana package to download and install.",
+      "value": "https://download.elastic.co/kibana/kibana/kibana-4.1.2-linux-x64.tar.gz"
+    }
+  },
+  "addons": [
+    "bonsai:staging"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/omc/heroku-buildpack-kibana"
+    }
+  ]
+}
