@@ -12,7 +12,7 @@
     "ELASTICSEARCH_URL": {
       "description": "If you already have an Elasticsearch cluster, you can provide its URL here and remove the provisioned addon after initial deployment.",
       "value": "https://kibanauser:kibanapass@host.region.bonsai.io/",
-      "required": true,
+      "required": true
     }
   },
   "addons": [ "bonsai:staging" ],
