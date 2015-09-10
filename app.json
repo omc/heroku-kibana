@@ -1,6 +1,6 @@
 {
   "name": "Kibana",
-  "description": "Flexible tool for building analytics and data visualization dashboards for Elasticsearch.",
+  "description": "Build analytics and data visualization dashboards for Elasticsearch with Kibana 4.",
   "keywords": [
     "kibana", "time-series", "metrics", "analytics", "dataviz", "visualization",
     "elasticsearch", "elastic", "bonsai"
