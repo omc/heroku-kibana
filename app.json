@@ -9,14 +9,13 @@
   "repository": "https://github.com/omc/heroku-kibana",
   "success_url": "/",
   "env": {
-    "DOWNLOAD_URL": {
-      "description": "Location of the Kibana package to download and install.",
-      "value": "https://download.elastic.co/kibana/kibana/kibana-4.1.2-linux-x64.tar.gz"
+    "ELASTICSEARCH_URL": {
+      "description": "If you already have an Elasticsearch cluster, you can provide its URL here and remove the provisioned addon after initial deployment.",
+      "value": "https://kibanauser:kibanapass@host.region.bonsai.io/",
+      "required": true,
     }
   },
-  "addons": [
-    "bonsai:staging"
-  ],
+  "addons": [ "bonsai:staging" ],
   "buildpacks": [
     {
       "url": "https://github.com/omc/heroku-buildpack-kibana"

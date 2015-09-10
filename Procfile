@@ -1,0 +1,1 @@
+web: kibana -p $PORT
