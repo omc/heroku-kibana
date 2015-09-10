@@ -7,7 +7,7 @@
   ],
   "website": "https://bonsai.io/",
   "repository": "https://github.com/omc/heroku-kibana",
-  "logo": "https://raw.githubusercontent.com/omc/heroku-kibana/master/kibana.svg",
+  "logo": "https://cdn.rawgit.com/omc/heroku-kibana/master/kibana.svg",
   "success_url": "/",
   "env": {
     "ELASTICSEARCH_URL": {
