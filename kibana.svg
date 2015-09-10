@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 27 27" style="enable-background:new 0 0 27 27;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{fill:#EA458B;}
+	.st2{fill:#006555;}
+	.st3{fill:#39BDB1;}
+	.st4{fill:#F3BB19;}
+	.st5{fill:#83CB1C;}
+	.st6{fill:#2D448E;}
+</style>
+<g id="Layer_1" class="st0">
+	
+		<image style="display:inline;overflow:visible;" width="252" height="45" xlink:href="../../../../Desktop/kibana.png"  transform="matrix(0.5877 0 0 0.5877 0 0)">
+	</image>
+</g>
+<g id="Layer_2">
+	<g>
+		<rect x="18" class="st1" width="9" height="27"/>
+		<rect x="16" class="st2" width="2" height="27"/>
+		<rect x="13" class="st3" width="3" height="27"/>
+		<polygon class="st4" points="13,0 8,0 8,27 13,27 13,27 13,0 		"/>
+		<rect class="st5" width="4" height="27"/>
+		<polygon class="st6" points="7,0 4,0 4,27 7,27 8,27 8,0 		"/>
+	</g>
+</g>
+</svg>
