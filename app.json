@@ -6,20 +6,20 @@
     "elasticsearch", "elastic", "bonsai"
   ],
   "website": "https://bonsai.io/",
-  "repository": "https://github.com/omc/heroku-kibana",
+  "repository": "https://github.com/omc/heroku-kibana.git#v5.4.3",
   "logo": "https://cdn.rawgit.com/omc/heroku-kibana/master/kibana.svg",
   "success_url": "/",
   "env": {
     "ELASTICSEARCH_URL": {
-      "description": "If you already have an Elasticsearch cluster, you can provide its URL here and remove the provisioned addon after initial deployment.",
-      "value": "https://kibanauser:kibanapass@host.region.bonsai.io/",
-      "required": true
+      "description": "If you already have an Elasticsearch cluster, you can provide its URL here and remove the provisioned addon after initial deployment. Format: https://kibanauser:kibanapass@host.region.bonsai.io:443",
+      "value": "",
+      "required": false
     }
   },
   "addons": [ "bonsai:staging" ],
   "buildpacks": [
     {
-      "url": "https://github.com/omc/heroku-buildpack-kibana"
+      "url": "https://github.com/omc/heroku-buildpack-kibana.git#v5.4.3"
     }
   ]
 }
