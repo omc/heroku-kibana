@@ -1,16 +1,16 @@
 ![Bonsai - Hosted Elasticsearch](bonsai-logo.png)
 
-## [Update] Kibana Supported on Bonsai
+## Kibana Supported on Bonsai
 
 You can now easily launch Kibana your Bonsai cluster dashboard if your cluster's Elasticsearch version >= v5.
 
 ---
 
-![Kibana 4](kibana.png)
+![Kibana](kibana.png)
 
-Run Kibana 4 on Heroku with one click. Brought to you by [Bonsai: Hosted Elasticsearch](https://bonsai.io/).
+Run Kibana 5 or 6 on Heroku with one click. Brought to you by [Bonsai: Hosted Elasticsearch](https://bonsai.io/).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/omc/heroku-kibana/tree/v5.4.3)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/omc/heroku-kibana)
 
 ## Note on Kibana 5.x
 

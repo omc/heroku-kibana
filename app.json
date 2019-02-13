@@ -1,12 +1,12 @@
 {
   "name": "Kibana",
-  "description": "Build analytics and data visualization dashboards for Elasticsearch with Kibana 4.",
+  "description": "Build analytics and data visualization dashboards for Elasticsearch with Kibana 5+",
   "keywords": [
     "kibana", "time-series", "metrics", "analytics", "dataviz", "visualization",
     "elasticsearch", "elastic", "bonsai"
   ],
   "website": "https://bonsai.io/",
-  "repository": "https://github.com/omc/heroku-kibana.git#v5.4.3",
+  "repository": "https://github.com/omc/heroku-kibana.git",
   "logo": "https://cdn.rawgit.com/omc/heroku-kibana/master/kibana.svg",
   "success_url": "/",
   "env": {
@@ -19,7 +19,7 @@
   "addons": [ "bonsai:staging" ],
   "buildpacks": [
     {
-      "url": "https://github.com/omc/heroku-buildpack-kibana.git#v5.4.3"
+      "url": "https://github.com/omc/heroku-buildpack-kibana.git"
     }
   ]
 }
